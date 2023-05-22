@@ -1,0 +1,85 @@
+.route{
+    min-height: 76px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.section{
+
+
+}
+
+.referral{
+    height: 188px;
+    max-width: 486px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-family: Poppins;
+    color:#800080;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.refTag{
+    display: flex;
+    flex-direction: column;
+    
+}
+.earning{
+    display: flex;
+    flex-direction: column;
+}
+.amount{
+font-family: Poppins;
+color:black;
+text-align: center;
+font-size: 32px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0em;
+}
+.btn{
+    
+}
+/* /////////////////////////////////////////// */
+
+.referral_input{
+
+    border: 1px solid black;
+
+}
+.demo.title{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color:#800080;
+
+}
+.tooltip{
+    border: 1px solid black;
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+display: flex;
+flex-direction: column;
+
+}
