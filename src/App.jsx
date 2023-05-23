@@ -5,19 +5,23 @@ import Assignment from './pages/Assignment.jsx'
 import Chat from './pages/Chat.jsx'
 import Profile from './pages/Profile.jsx'
 import Home from './Pages/Home'
+import RefrralPage from './Pages/ReffralPage/ReferralPage'
+import Card from './components/Card/Card'
 function App() {
 
   return (
-   <Routes>
+  //  <Routes>
 
-    <Route path='/' element={<Home/>}>
+  //   <Route path='/' element={<Home/>}>
 
-    <Route path='/assignment' element={<Assignment/>}/>
-    <Route path='/chat' element={<Chat/>}/>
-    <Route path='/profile' element={<Profile/>}/>
-    </Route>
+  //   <Route path='/assignment' element={<Assignment/>}/>
+  //   <Route path='/chat' element={<Chat/>}/>
+  //   <Route path='/profile' element={<Profile/>}/>
+  //   <Route path='/referandearn' element={<RefrralPage/>}/>
+  //   </Route>
 
-   </Routes>
+  //  </Routes>
+  <Card></Card>
   )
 }
 
