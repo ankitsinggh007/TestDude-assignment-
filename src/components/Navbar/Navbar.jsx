@@ -4,7 +4,6 @@ import logo from '../../assets/logo.svg'
 import arrow from '../../assets/arrow.png'
 import { NavLink } from 'react-router-dom';
 function navbar() {
-  console.log(arrow,"arrow");
   return (
     <div className={classes.navbar}>
         <span className={classes.logo}>
