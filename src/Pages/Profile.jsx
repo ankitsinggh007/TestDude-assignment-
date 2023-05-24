@@ -7,7 +7,8 @@ import icon2 from '../assets/icon2.svg'
 import icon3 from '../assets/icon3.svg'
 import icon4 from '../assets/icon4.svg'
 import icon5 from '../assets/icon5.svg'
-import { NavLink } from 'react-router-dom'
+import Path from '../components/Path'
+import { NavLink, useLocation } from 'react-router-dom'
 function Profile() {
 
 
@@ -47,15 +48,14 @@ function Profile() {
     },
 ]
 
-
+const location=useLocation();
 
 
   return (
     <div className={classes.main} >
 
-        <div className={classes.section1}>
-            <span>location to somewhere</span>
-        </div>        
+<Path path={location.pathname}/>
+
         
 
         <div className={classes.section2}>
@@ -110,9 +110,9 @@ function Profile() {
 
         <div className={classes.section4}>
 
-            <NavLink to ='/referandearn'>Friends Who Enrolled</NavLink>
+            <NavLink to ='/referandearn' className={({isActive})=>isActive?classes.active:classes.link}>Friends Who Enrolled</NavLink>
             
-            <NavLink to ='/terms'>Terms & Conditions</NavLink>
+            <NavLink to ='/terms' className={({isActive})=>isActive?classes.active:classes.link}>Terms & Conditions</NavLink>
 
         </div>
 

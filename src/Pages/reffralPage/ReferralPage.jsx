@@ -1,7 +1,9 @@
 import React from 'react'
 import classes from "./ReferralPage.module.css"
 import Card from '../../components/Card/Card'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
+import Path from '../../components/Path.jsx'
+import {AiOutlineArrowLeft} from 'react-icons/ai'
 function RefrralPage() {
   const Enrolled=[
     {
@@ -23,9 +25,14 @@ function RefrralPage() {
     referral_amount:485
   },
 ]
+
+
+const location=useLocation();
+console.log(location,"location")
   return (
     <div className={classes.main}>
-    <div className={classes.section1}> </div>
+      <Path path={location.pathname}/>
+      <button className={classes.btn}><AiOutlineArrowLeft style={{fontWeigh:"2px",marginRight:"5px"}}/>  go back</button>
     <div className={classes.section2}>
 
       <div className={classes.container1}>

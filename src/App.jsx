@@ -10,17 +10,20 @@ import ReferralPage from './Pages/reffralPage/ReferralPage'
 function App() {
 
   return (
+   <>
    <Routes>
 
-    <Route path='/' element={<Home/>}>
+<Route path='/' element={<Home/>}>
 
-    {/* <Route path='/assignment' element={<Assignment/>}/> */}
-    <Route path='/chat' element={<Chat/>}/>
-    <Route path='/profile' element={<Profile/>}/>
-    <Route path='/referandearn' element={<ReferralPage/>}/>
-    </Route>
+{/* <Route path='/assignment' element={<Assignment/>}/> */}
+<Route path='/chat' element={<Chat/>}/>
+<Route path='/profile' element={<Profile/>}/>
+<Route path='/referandearn' element={<ReferralPage/>}/>
+</Route>
 
-   </Routes>
+</Routes>
+
+   </>
   )
 }
 

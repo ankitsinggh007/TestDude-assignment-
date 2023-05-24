@@ -1,6 +1,7 @@
 .navbar {
 box-sizing: border-box;
-width: 100%;
+width: 95%;
+margin: auto;
 min-width: 344px;
   display: flex;
   align-items: center;
@@ -42,9 +43,22 @@ min-width: 344px;
     
 
 }
+.link{
+  color:#800080;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.active{
+  color: rgba(128, 0, 128, 0.25);
+  margin-right: 30px;
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 1052px) {
-  .section > span {
+  .section > .active{
+    display: none;
+  }
+  .section >  .link{
     display: none;
   }
   .section > div {

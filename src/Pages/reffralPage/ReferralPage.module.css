@@ -7,12 +7,28 @@
 }
 .section2 {
     width: 80vw;
+    
     margin: auto;
     display: flex;
     justify-content:space-between ;
 }
-.section4{
-  padding: 25px;
+
+.main .btn{
+  
+  font-family: 'Poppins';
+font-style: normal;
+display: none;
+width: 90vw;
+background-color: white;
+margin-left: 1.3rem;
+font-weight: 500;
+align-items: center;
+border: none;
+font-size: 1.2em;
+line-height: 24px;
+width: fit-content;
+color: #800080;
+
 }
 
 .section2 .container1 {
@@ -105,16 +121,27 @@ color: #800080;
 }
 .section3 .container{
 display: flex;
-/* background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%); */
-/* border-radius: 0px 20px 20px 0px; */
-width: fit-content;
+
 justify-content: space-between;
 height: fit-content;
 
 
 }
 
-
+.section4{
+  width: 80%;
+  margin: auto;
+}
+.link{
+  color:#800080;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.active{
+  color: rgba(128, 0, 128, 0.25);
+  margin-right: 30px;
+  text-decoration: none;
+}
 @media only screen and (max-width: 1052px) {
   
   .section2 {
@@ -126,9 +153,17 @@ height: fit-content;
     margin: auto;
     
   }
+  .section4{
+  /* padding: 15px; */
+  width: 89%;
+
+  }
   .section3 .container{
     flex-direction: column;
     row-gap: 10px;
+  }
+  .main .btn{
+    display: flex;
   }
 }
 
