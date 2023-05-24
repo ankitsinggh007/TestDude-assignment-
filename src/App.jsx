@@ -5,23 +5,22 @@ import Assignment from './pages/Assignment.jsx'
 import Chat from './pages/Chat.jsx'
 import Profile from './pages/Profile.jsx'
 import Home from './Pages/Home'
-import RefrralPage from './Pages/ReffralPage/ReferralPage'
 import Card from './components/Card/Card'
+import ReferralPage from './Pages/reffralPage/ReferralPage'
 function App() {
 
   return (
-  //  <Routes>
+   <Routes>
 
-  //   <Route path='/' element={<Home/>}>
+    <Route path='/' element={<Home/>}>
 
-  //   <Route path='/assignment' element={<Assignment/>}/>
-  //   <Route path='/chat' element={<Chat/>}/>
-  //   <Route path='/profile' element={<Profile/>}/>
-  //   <Route path='/referandearn' element={<RefrralPage/>}/>
-  //   </Route>
+    <Route path='/assignment' element={<Assignment/>}/>
+    <Route path='/chat' element={<Chat/>}/>
+    <Route path='/profile' element={<Profile/>}/>
+    <Route path='/referandearn' element={<ReferralPage/>}/>
+    </Route>
 
-  //  </Routes>
-  <Card></Card>
+   </Routes>
   )
 }
 

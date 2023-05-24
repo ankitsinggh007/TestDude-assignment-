@@ -35,3 +35,11 @@
   color: #4d4d4d;
   max-width: 270px;
 }
+@media only screen and (max-width: 1100px) {
+  .modal{
+    margin: auto;
+    column-gap: 15px;
+
+  }
+}
+

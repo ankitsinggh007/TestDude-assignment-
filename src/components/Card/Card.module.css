@@ -1,7 +1,132 @@
+.main {
+  width: 358px;
+  color: white;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap:2px;
 
-.main{
-    width: 358px;
-height: 228px;
-background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
-border-radius: 20px;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.subContainer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.footer .label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+}
+.footer .value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.tag {
+  width: 95%;
+  height: 150px;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  background-color: "#f5f5f5";
+  
+}
+.skill{
+    border: 1px solid black;
+}
+.tag > p {
+    border: 1px solid white;
+  padding: 5px;
+  font-family: "Poppins";
+  margin-left: 5px;
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+::-webkit-scrollbar:hover {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  height: 25px;
+  
+  background: #eeaeae;
+  border-radius: 2.5px;
+  }
+
+  @media only screen and (max-width: 1052px) {
+    .main{
+      width:311px;
+      height: 245px;
+    }
+  }
+  
